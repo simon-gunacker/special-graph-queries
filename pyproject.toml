@@ -1,0 +1,10 @@
+[project]
+name = "importer"
+version = "0.1.0"
+description = "Neo4j CSV bulk importer"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "neo4j>=5.20.0",
+    "python-dotenv>=1.0.1"
+]
